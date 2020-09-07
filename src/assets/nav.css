@@ -1,0 +1,25 @@
+.nav-container{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+.nav-flex{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.4s;
+}
+.show{
+    background-color: #000;
+}
+nav img{
+    height: 70%;
+    padding-left: 20px ;
+}
+.fa-bars{
+    padding-right: 20px;
+    color: #fff;
+}
