@@ -13,7 +13,7 @@ function Row(props) {
     useEffect(() => {
         axios.get(url)
         .then(res => {setMovie(res.data.results)
-        console.log(res.data)})
+        })
         .catch(err => console.log(err))
         
     }, [url])

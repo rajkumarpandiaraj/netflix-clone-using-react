@@ -19,7 +19,6 @@ function Banner(props) {
 let bgImg = ''
 if(Object.keys(movies).length > 0){
     bgImg = `${baseUrl}${movies.backdrop_path}`;
-    console.log(movies);
 }
     return (
         <div style={{background : `url(${bgImg}) no-repeat top center / cover`,
